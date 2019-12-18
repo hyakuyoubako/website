@@ -1,0 +1,26 @@
+<!doctype html>
+<!--日本語にする -->
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" charset="utf-8">
+<!--600秒ごとにリロード -->
+<meta http-equiv="refresh" content="600">
+<title>デジタル百葉箱</title>
+</head>
+<body><h1>デジタル百葉箱　</h1><br>
+10分ごとに気圧、気温、湿度、webカメラによる画像の各データを取得します。<br>
+最新データにするには、再読み込み(F5)してください。<br>
+<img src="sensor_data_temp.png" alt="温度" /><br>
+<img src="sensor_data_humid.png" alt="湿度" /><br>
+<img src="sensor_data_pressure.png" alt="気圧" /><br>
+<img src="sensor_data_temp_humid.png" alt="温度＿湿度" /><br>
+<img src="now.jpg" alt="picture" /><br>
+過去のデータのページ　<a href="pastdata10.php">その1（どんなブラウザでもOK）</a>　　<a href="pastdata12.php">その2（最新ブラウザ用）</a><br>
+<a href="sensor_data.csv">sensor_data,temp,humid,pressure(csv)</a><br>
+センサーはドイツのBOSH社のBME280を使用しています。<br>
+データの取得やグラフ化、Web化は、イギリスで開発されたraspberrypi(ラズベリーパイ)というマイコンを使用しています。<br>
+プログラムは主にパイソンという言語を使用しています。<br>
+データは校正してませんので、気象業務には使用できません。教育目的でのみご使用ください。<br>
+Copyright (c) 2019 おー. All Rights Reserved
+</body></html>
+
