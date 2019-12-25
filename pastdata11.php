@@ -93,9 +93,9 @@
 
 <p>
 <br>
-<img src="sensor_data_temp_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気温データ"><br>
+<img src="sensor_data_temp_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気温データ">
 <img src="sensor_data_humid_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>湿度データ"><br>
-<img src="sensor_data_pressure_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気圧データ"><br>
+<img src="sensor_data_pressure_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気圧データ">
 <img src="sensor_data_temp_humid_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気温と湿度データ"><br>
 <img src="date<?php echo $mondate; ?>-00.jpg" alt="date<?php echo $mondate; ?>-00時" title="<?php echo $mondate; ?>-00時">
 <img src="date<?php echo $mondate; ?>-01.jpg" alt="date<?php echo $mondate; ?>-01時" title="<?php echo $mondate; ?>-01時">
