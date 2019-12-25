@@ -29,9 +29,9 @@
 
 <p>
 <br>
-<img src="sensor_data_temp_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気温データ"><br>
+<img src="sensor_data_temp_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気温データ">
 <img src="sensor_data_humid_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>湿度データ"><br>
-<img src="sensor_data_pressure_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気圧データ"><br>
+<img src="sensor_data_pressure_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気圧データ">
 <img src="sensor_data_temp_humid_<?php echo $mondate; ?>.png" alt="<?php echo $mondate; ?>気温と湿度データ"><br>
 
 <!--写真画像表示のためのphpプログラム-->
