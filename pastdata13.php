@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <!--input type="date"で処理のため、月日入力がブラウザに依存するバージョン20191201 おー　-->
+<!--20191220修正-->
   <head>
     <meta charset="UTF-8">
     <title>過去の気象データ</title>
@@ -39,7 +40,7 @@
 		for ($hour = 00; $hour < 24; $hour++ ){//変数hourを0から24まで1ずつ変化させる。
 		echo "<img src=\"date". $mondate."-". sprintf('%02d',$hour). ".jpg\"
 		   alt=\"date". $mondate."-". sprintf('%02d',$hour). "時\"
-		    title=\"". $mondate."-". sprintf('%02d',$hour). "時\" > ";//日付-時間.jpgの画像を返す。
+		    title=\"". $mondate."-". sprintf('%02d',$hour). "時\">";//日付-時間.jpgの画像を返す。
 		}
 	?>
 <br>
