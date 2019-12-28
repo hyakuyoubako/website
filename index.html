@@ -8,17 +8,24 @@
 <title>デジタル百葉箱</title>
 </head>
 <body><h1>デジタル百葉箱　</h1>
+<!--objectでテキストを挿入-->
+<object data="nowdata.txt" width="400" height="80"></object>
 <br>
-10分ごとに気圧、気温、湿度、webカメラによる画像の各データを取得します。
+
+10分ごとに気温、湿度、気圧、webカメラによる画像の各データを取得します。
 最新データにするには、再読み込み(F5)してください。<br>
 <img src="sensor_data_temp.png" alt="温度" />
 <img src="sensor_data_humid.png" alt="湿度" /><br>
 <img src="sensor_data_pressure.png" alt="気圧" />
 <img src="sensor_data_temp_humid.png" alt="温度＿湿度" /><br>
 <img src="now.jpg" alt="picture"><br>
+<!--objectでテキストを挿入-->
 撮影日　<object data="nowjpgdate.txt" type="text/plain" width="300" height="20"></object>
 <br><p>
-過去のデータのページ　<a href="pastdata11.php">その1（どんなブラウザでもOK）</a>　　<a href="pastdata13.php">その2（最新ブラウザ用）</a><br>
+過去のデータのページ　<a href="pastdata21.php">1日分データその1（どんなブラウザでもOK）</a>
+　　<a href="pastdata13.php">1日分データその2（最新ブラウザ用）</a>
+　　<a href="pastmonthdata.php">1か月分のデータ</a><br>
+
 <a href="sensor_data.csv">sensor_data,temp,humid,pressure(csv)本日のデータダウンロード</a></p><br>
 センサーはドイツのBOSH社のBME280を使用しています。<br>
 データの取得やグラフ化、Web化は、イギリスで開発されたraspberrypi(ラズベリーパイ)というマイコンを使用しています。<br>
