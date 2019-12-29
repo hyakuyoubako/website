@@ -90,7 +90,7 @@
 <!--写真画像表示のためのphpプログラム　毎日の12時の画像表示-->
 
 <?php
-		for ($day = 01; $day < 31; $day++ ){//変数dayを1から31まで1ずつ変化させる。
+		for ($day = 01; $day < 32; $day++ ){//変数dayを1から32まで1ずつ変化させる。
     echo "<img src=\"date". $mondate."". sprintf('%02d',$day)."-12.jpg\"
 		   alt=\"". $mondate."". sprintf('%02d',$day)."-12時\"
 		    title=\"". $mondate."". sprintf('%02d',$day)."-12時\"> ";//日付-時間.jpgの画像を返す。
